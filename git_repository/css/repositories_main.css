@@ -48,6 +48,10 @@
     margin-bottom: 16px;
 }
 
+.follow-container {
+    margin-bottom: 16px;
+}
+
 .follow-link {
     color: #888;
     text-decoration: none;
@@ -63,6 +67,56 @@
     color: #333;
 }
 
-.follow-container a:hover {
+.follow-container a:hover,
+.follow-container a:hover * {
     color: #0969da;
+}
+
+.company-and-address-items {
+    position: relative;
+    padding: 4px 0px 0px 24px;
+}
+
+.company-and-address-items i {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.company-items-name {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.company-items-name:hover {
+    text-decoration: underline;
+}
+
+.profile-etc-container {
+    margin-top: 16px;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 16px;
+}
+
+.profile-etc-title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.achievements-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.achievements-img {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+}
+
+.achievements-img img {
+    width: 100%;
 }
