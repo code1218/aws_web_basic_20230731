@@ -1,0 +1,24 @@
+.main-right {
+    flex-grow: 1;
+    max-width: 896px;
+}
+
+.repositories-main-options { 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 16px 0px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.find-repository-input {
+    margin-right: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 505px;
+    min-width: 220px;
+}
+
+
