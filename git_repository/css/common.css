@@ -7,6 +7,22 @@
     cursor: pointer;
 }
 
+.btn-s-left,
+.btn-s-right {
+    padding: 3px 12px;
+    font-size: 12px;
+}
+
+.btn-s-left {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-s-right {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
 .btn-success {
     background-color: #1a7f37;
     color: white;

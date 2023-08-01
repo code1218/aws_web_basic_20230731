@@ -21,4 +21,88 @@
     min-width: 220px;
 }
 
+.repository-list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 24px 0px;
+    
+}
 
+.repository-title {
+    height: 30px;
+}
+
+.repository-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0969da;
+    text-decoration: none;
+}
+
+.repository-access-type {
+    margin: 0px 0px 4px 4px;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    padding: 0px 7px;
+    font-size: 12px;
+}
+
+.repository-description {
+    margin-bottom: 8px;
+    padding-right: 24px;
+}
+
+.repository-info {
+    margin-top: 16px;
+}
+
+.repository-skill-color {
+    display: inline-block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #e34c26;
+}
+
+.repository-skill-name {
+    margin-right: 16px;
+    font-size: 12px;
+}
+
+.repository-commit-date {
+    font-size: 12px;
+}
+
+.repository-list-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.star-buttons {
+    display: flex;
+}
+
+.star-buttons .btn-s-right {
+    border-left: none;
+}
+
+.star-icon {
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.commit-graph {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+}
+
+.graph-line {
+    width: 155px;
+    border-bottom: 2px solid #00d13469;
+}
