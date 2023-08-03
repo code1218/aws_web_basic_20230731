@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .img-border {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px auto;
+            border: 1px solid #dbdbdb;
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .img-border img {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="img-border">
+        <img src="" alt="" onclick="cupImgOnClickHandle(this)">
+    </div>
+
+    <script src="cup.js"></script>
+</body>
+</html>
